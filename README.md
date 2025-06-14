@@ -5,6 +5,9 @@
 - Cristóbal Erazo  
 - Victor Figueroa  
 
+### Uso de Sonar Qube Cloud
+Existieron algunos problemas al intentar instalar SonarQube directamente en nuestros sistemas. Para no retrasar el trabajo, decidimos usar SonarQube Cloud. Es una versión en la nube que funciona de manera muy similar, dándonos todas las herramientas necesarias para cumplir con los requisitos de la tarea sin contratiempos.
+
 ### ¿Qué tipo de errores detectó SonarQube que podrían haber pasado desapercibidos?
 SonarQube identificó *code smells*, problemas de mantenibilidad y advertencias de seguridad como el uso de `System.out.println`, que no se detectan fácilmente en pruebas dinámicas.
 
