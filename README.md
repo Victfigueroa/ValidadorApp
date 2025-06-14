@@ -1,4 +1,4 @@
-## Análisis de Calidad de Código con SonarQube
+## Análisis de Calidad de Código con SonarQube (cloud)
 
 **Grupo 5**  
 - Juan Villaman  
@@ -22,3 +22,9 @@ Para proyectos críticos se podrían aplicar reglas más estrictas de seguridad 
 
 ### Análisis final: ¿Qué detectamos? ¿Qué corregimos? ¿Cómo mejoró el resultado?
 Detectamos errores como caracteres ilegales, el uso de `System.out.println` y ausencia de estructura de paquetes. Corregimos la clase `App.java`, aplicamos buenas prácticas y configuramos correctamente el análisis en SonarQube Cloud. Esto nos permitió obtener una calificación “A” en todas las métricas, mejorando la mantenibilidad y preparación del software para producción.
+
+### Dashboard Sonarquebe con error (antes)
+![SonarQube (Antes)](https://github.com/user-attachments/assets/74be1849-34ee-4bf5-bc54-c21a5ae7b0d5)
+
+### Dashboard Sonarquebe sin error (despues)
+![SonarQube (Despues)](https://github.com/user-attachments/assets/ffb29a2c-909f-4136-9ac2-effa665174d9)
